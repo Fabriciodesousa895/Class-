@@ -42,7 +42,7 @@ class calculo{
         }
 
     }
-   //Método soma verifica se o valor passado é do tipo number,caso sim faz um incremento de v vezes o seu antecessor
+   //Método fatorial verifica se o valor passado é do tipo number,caso sim faz um incremento de v vezes o seu antecessor
     fatorial(v){
         if(typeof v !== 'number'){
          throw new Error('Deve ser passado somente um numero,não será aceito strings ou outros tipos.')
